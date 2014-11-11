@@ -14,3 +14,81 @@
 /*
  *= require bootstrap_and_overrides
  */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+  .rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  .testi_block p.content span.laquo {
+    background: url('laquo.png') no-repeat scroll 0% 0% transparent;
+    width: 14px;
+    height: 11px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    display: block;
+}
+.testi_block {
+    width: 99%;
+    padding: 30px 6px 0px 0px;
+    margin: 0px auto;
+}
+.testi_block p.content {
+    font-style: italic;
+    line-height: 24px;
+    padding-left: 19px;
+    margin-left: 21px;
+    position: relative;
+    font-size: 20px;
+    color: #1A1818;
+    overflow: hidden;
+}
+.testi_block p.content span.raquo {
+    background: url('raquo.png') no-repeat scroll right 4px transparent;
+    width: 13px;
+    height: 15px;
+    padding-left: 4px;
+    display: inline-block;
+}
+mark {
+    background-color: rgba(79, 87, 82, 0.49);
+    
+}
+.top-stripe {
+    color: #CCC;
+    padding: 5px;
+    background: none repeat scroll 0% 0% rgba(56, 51, 60, 0.55);
+    text-align: center;
+}
+.button-link {
+    color: #CCC;
+    cursor: pointer;
+    border: medium none;
+    padding: 0px;
+    background: none repeat scroll 0% 0% transparent;
+}
